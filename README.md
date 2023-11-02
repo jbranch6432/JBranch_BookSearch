@@ -16,11 +16,6 @@ The Module 21 Challenge - Book Search is a simple application that allows users 
 ![Screenshot1]() 
 ![Screenshot2]()
 
-## Prerequisites
-
-Before you get started with the Module 21 Challenge - Book Search, make sure you have the following prerequisites in place:
-
-Git: If you plan to clone the project repository from GitHub, you'll need Git installed.
 
 ## Installation
 
@@ -41,3 +36,6 @@ View and update information about favorite books.
 These features provide a basic foundation for a book search and management application, and you can expand on them as needed.
 
 ## Links
+
+Github URL:
+https://github.com/jbranch6432/JBranch_BookSearch.git
