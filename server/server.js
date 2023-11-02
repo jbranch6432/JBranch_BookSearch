@@ -23,11 +23,11 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client //add files here//'));
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
 //Apollo Server with GraphQL//
-const startApolloerver = async (typeDefs, resolvers) => {
+const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });
   db.once('open', () => {
